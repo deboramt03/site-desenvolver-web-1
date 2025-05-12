@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF- 8">
+    <meta name="viewport" content="devide-width. inicial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/owlcarousel/dist/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="src/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+
+
+
+    <title>netflix</title>
+
+</head>
+
+<body>
+
+    <!-- Menu da Página -->
+
+    <header>
+
+        <div class="container">
+
+            <img class="logo" src="src/img/Original_Netflix_Logo.png" alt="logo netflix" />
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentarios</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <h3 class="title-movie">TODO MUNDO ODEIA O CHRIS</h3>
+                <p class="description">Todo Mundo Odeia o Chris" é uma sitcom americana baseada na vida do comediante
+                    Chris Rock, que narra as experiências de um adolescente negro na década de 1980, em Nova York, no
+                    bairro do Brooklyn. A série acompanha Chris, suas dificuldades na escola, o preconceito que enfrenta
+                    e as aventuras da família. </p>
+                <div class="buttons"></div>
+                <button role="button" class="button">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button role="button" class="button">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+
+
+
+
+
+            </div>
+        </div>
+
+
+    </main>
+    <div class="carousel-movie">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="src/img/mini1.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini2.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini3.jpg" alt="" />
+            </div>
+
+            <div class="item">
+                <img class="box-movie" src="src/img/mini4.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini5.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini6.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini7.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini8.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini9.jpg" alt="" />
+            </div>
+            <div class="item">
+                <img class="box-movie" src="src/img/mini10.jpg" alt="" />
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="src/OwlCarousel/dist/owl.carousel.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+
+
+
+
+    </script>
+
+</body>
+
+</html>
